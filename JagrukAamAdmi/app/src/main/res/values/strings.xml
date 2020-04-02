@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Jagruk Aam Admi</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="Fullname">Fullname</string>
+    <string name="Email">Email</string>
+    <string name="MobileNo">MobileNo</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="map_key" translatable="false">AIzaSyB_qsP8AOP_P0MdlPz-48TDaJYjTP3vbjo</string>
+
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

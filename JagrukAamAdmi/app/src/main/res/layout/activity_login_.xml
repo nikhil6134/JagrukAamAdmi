@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/logotext"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context="com.example.hp.jagrukaamadmi.Login_Activity"
+    android:padding="20dp">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="216dp"
+        android:layout_height="140dp"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginVertical="20dp"
+        android:src="@drawable/akash"
+        android:transitionName="logo_image"/>
+
+    <TextView
+        android:id="@+id/logo_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Hello Hero!! You are one step closer to save anyone's life"
+        android:transitionName="logo_text"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/logo_slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Sign In to continue"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:transitionName="logo_text1"
+        />
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+
+         >
+
+
+
+
+</LinearLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/etusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/username"
+        android:transitionName="login1">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="@string/username"
+            android:inputType="textEmailAddress"
+            android:textColor="#fff"
+            android:transitionName="login1"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/etPasswordLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
+        android:hint="@string/password"
+        android:layout_marginTop="10dp"
+        android:transitionName="login">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textColor="#fff"
+            android:transitionName="login"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+
+        android:id="@+id/button3"
+        android:layout_width="200dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="150dp"
+        android:background="#0000"
+        android:elevation="0dp"
+        android:text="forget password?"
+        android:transitionName="butter"
+
+        android:textColor="#ffff" />
+
+
+    <Button
+        android:id="@+id/login_btn"
+        style="@android:style/Widget.Button.Toggle"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="#1569c7"
+        android:outlineProvider="bounds"
+        android:text="Log In"
+        android:textStyle="bold"
+        android:transitionName="login_btn"
+
+        android:typeface="serif" />
+
+    <Button
+
+        android:id="@+id/signup"
+        android:layout_width="200dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="2dp"
+        android:background="#0000"
+        android:elevation="0dp"
+        android:text="New User?? SignUp"
+        android:transitionName="butter1"
+
+
+        android:textColor="@color/colorAccent" />
+
+
+
+
+
+</LinearLayout>
